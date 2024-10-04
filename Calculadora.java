@@ -55,5 +55,10 @@ public class Calculadora {
     public static double multiplicar(double a, double b) {
         return a * b;
     }
+
+    // Método para dividir
+    public static double dividir(double a, double b) {
+        return a / b;
+    }
        
     }
