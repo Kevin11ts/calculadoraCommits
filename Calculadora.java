@@ -16,6 +16,28 @@ public class Calculadora {
         System.out.println("Seleccione la operación: \n Para sumar digite: + \n Para restar : - \n Para multiplicar digite: * \n Para dividir digite: / ");
         operacion = scanner.next().charAt(0);
 
+        switch (operacion) {
+            case '+':
+                System.out.println("El resultado es: " + sumar(num1, num2));
+                break;
+            case '-':
+                System.out.println("El resultado es: " + restar(num1, num2));
+                break;
+            case '*':
+                System.out.println("El resultado es: " + multiplicar(num1, num2));
+                break;
+            case '/':
+                if (num2 != 0) {
+                    System.out.println("El resultado es: " + dividir(num1, num2));
+                } else {
+                    System.out.println("Error: No se puede dividir entre 0.");
+                }
+                break;
+            default:
+                System.out.println("Operación no válida.");
+                break;
+        }
+
        
     }
 }
