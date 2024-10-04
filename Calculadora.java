@@ -51,5 +51,9 @@ public class Calculadora {
         return a - b;
     }
 
+    // Método para multiplicar
+    public static double multiplicar(double a, double b) {
+        return a * b;
+    }
        
     }
