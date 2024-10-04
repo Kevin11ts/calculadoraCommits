@@ -46,5 +46,10 @@ public class Calculadora {
         return a + b;
     }
 
+    // Método para restar
+    public static double restar(double a, double b) {
+        return a - b;
+    }
+
        
     }
