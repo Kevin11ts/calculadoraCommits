@@ -13,7 +13,7 @@ public class Calculadora {
         System.out.println("Ingrese el segundo número: ");
         num2 = scanner.nextDouble();
 
-        System.out.println("Seleccione la operación (+, -, *, /): ");
+        System.out.println("Seleccione la operación: \n Para sumar digite: + \n Para restar : - \n Para multiplicar digite: * \n Para dividir digite: / ");
         operacion = scanner.next().charAt(0);
 
        
